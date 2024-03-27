@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "intro2ml"
+version = "0.1.0"
+description = "Study scripts for Intro to ML from Oreily"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+scipy = "^1.12.0"
+jupyterlab = "^4.1.5"
+scikit-learn = "^1.4.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
