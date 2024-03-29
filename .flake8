@@ -1,0 +1,17 @@
+[flake8]
+exclude = 
+    .git
+    .python-version
+    .ibynb_checkpoints/
+    .ibynb
+    poetry.lock
+    pyproject.toml
+    .md
+    py/
+    env/
+    .env
+    __pycache__/
+per-file-ignores =
+    # imported but unused
+    __init__.py: F401
+max-line-length = 80
