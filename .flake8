@@ -10,6 +10,7 @@ exclude =
     py/
     env/
     .env
+    cache
     __pycache__/
 per-file-ignores =
     # imported but unused
