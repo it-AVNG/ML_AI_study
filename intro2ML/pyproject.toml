@@ -16,6 +16,7 @@ scikit-learn = "^1.4.1.post1"
 black = "^24.3.0"
 flake8 = "^7.0.0"
 pytest = "^8.1.1"
+mglearn = "^0.2.0"
 
 
 [build-system]
