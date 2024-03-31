@@ -17,6 +17,7 @@ black = "^24.3.0"
 flake8 = "^7.0.0"
 pytest = "^8.1.1"
 mglearn = "^0.2.0"
+seaborn = "^0.13.2"
 
 
 [build-system]
